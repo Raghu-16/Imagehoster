@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Entity
 //@Table annotation provides more options to customize the mapping.
 //Here the name of the table to be created in the database is explicitly mentioned as 'Comment'. Hence the table named 'Comment' will be created in the database with all the columns mapped to all the attributes in 'Comment' class
-@Table(name = "Comment")
+@Table(name = "comments")
 public class Comment implements Serializable {
 
     //@Id annotation specifies that the corresponding attribute is a primary key
