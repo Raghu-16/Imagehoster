@@ -17,7 +17,9 @@ public class ImageService {
     //Call the getAllImages() method in the Repository and obtain a List of all the images in the database
     public List<Image> getAllImages() {
         return imageRepository.getAllImages();
-    }
+
+}
+
 
 
     //The method calls the createImage() method in the Repository and passes the image to be persisted in the database
